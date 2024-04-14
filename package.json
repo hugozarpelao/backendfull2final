@@ -1,0 +1,25 @@
+{
+  "name": "backend_final",
+  "version": "1.0.0",
+  "description": "Backend - Sistema de recrutamento de trabalho",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "express",
+    "cors",
+    "curriculo"
+  ],
+  "author": "Hugo Zarpelão",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.4"
+  }
+}
